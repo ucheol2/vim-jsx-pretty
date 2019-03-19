@@ -171,14 +171,14 @@ function! jsx_pretty#syntax#highlight()
 
   highlight def link jsxTag Function
   highlight def link jsxTagName Identifier
-  highlight def link jsxComponentName Function
+  highlight def link jsxComponentName Statement
   highlight def link jsxAttrib Type
   highlight def link jsxAttribKeyword jsxAttrib
-  highlight def link jsxEqual Operator
+  highlight def link jsxEqual Function
   highlight def link jsxString String
   highlight def link jsxDot Operator
   highlight def link jsxNamespace Operator
-  highlight def link jsxCloseString Comment
+  highlight def link jsxCloseString Function
   highlight def link jsxPunct jsxCloseString
   highlight def link jsxCloseTag jsxCloseString
   highlight def link jsxComment Comment
