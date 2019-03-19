@@ -170,7 +170,7 @@ function! jsx_pretty#syntax#highlight()
 
 
   highlight def link jsxTag Function
-  highlight def link jsxTagName Identifier
+  highlight def link jsxTagName Statement
   highlight def link jsxComponentName Statement
   highlight def link jsxAttrib Type
   highlight def link jsxAttribKeyword jsxAttrib
